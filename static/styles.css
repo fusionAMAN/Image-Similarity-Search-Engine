@@ -1,0 +1,18 @@
+:root { --bg:#0b1020; --fg:#e8eaf0; --muted:#9aa3b2; --card:#131a33; }
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--fg)}
+.container{max-width:980px;margin:24px auto;padding:16px}
+header{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
+.logo{font-weight:700;font-size:1.1rem}
+.card{background:var(--card);padding:16px;border-radius:16px;box-shadow:0 6px 24px rgba(0,0,0,.25);margin-bottom:16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.product{border-radius:14px;overflow:hidden;background:#0e1430}
+.product img{width:100%;display:block}
+.product .meta{padding:10px}
+.muted{color:var(--muted);font-size:.9rem}
+.btn{background:#3b82f6;color:white;border:0;padding:10px 14px;border-radius:12px;cursor:pointer}
+input[type=range]{width:100%}
+input,button{font:inherit}
+form .row{display:grid;gap:8px;grid-template-columns:2fr 1fr}
+@media(max-width:560px){form .row{grid-template-columns:1fr}}
+.error{color:#fca5a5}

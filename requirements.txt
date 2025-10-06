@@ -1,0 +1,10 @@
+setuptools>=65.0.0
+wheel
+Flask
+numpy
+pandas
+Pillow
+requests
+tensorflow==2.16.1
+tensorflow_hub==0.16.1
+gunicorn
